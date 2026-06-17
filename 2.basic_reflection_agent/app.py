@@ -26,6 +26,7 @@ def generate_node(state):
     print("CONTENT:", repr(response.content))
     return response
 
+#pasing just last tweet to this node
 def reflect_node(state):
     latest_tweet = state[-1]
     print("\n=== REFLECT ===")
