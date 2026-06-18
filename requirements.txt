@@ -2,4 +2,5 @@ langchain-google-genai
 langchain
 lanchain_community
 python-dotenv
-
+langgraph
+grandalf
