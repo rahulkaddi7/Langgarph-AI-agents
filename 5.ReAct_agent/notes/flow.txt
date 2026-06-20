@@ -1,0 +1,85 @@
+## Initial state:
+messages = [
+    HumanMessage(
+        content="How many days ago was the last SpaceX launch?"
+    )
+]
+ 
+-> -> -> -> -> -> -> -> 
+
+## reason_node
+Gemini returns:
+
+AIMessage(
+    content="",
+    tool_calls=[
+        {
+            "name": "tavily_search_results_json",
+            "args": {
+                "query": "last SpaceX launch date"
+            }
+        }
+    ]
+)
+
+-> -> -> -> -> -> -> -> 
+
+## tools_condition
+sees tool_calls
+
+-> -> -> -> -> -> -> -> 
+
+## ToolNode
+executes Tavily
+
+adds:
+ToolMessage(...)
+to messages
+
+-> -> -> -> -> -> -> -> 
+
+back to reason_node
+
+gemini adds:
+"tool_calls": [
+        {
+          "name": "get_current_time",
+          "args": {
+            "format": "%Y-%m-%d"
+          },
+          "id": "RSC2sKxN",
+          "type": "tool_call"
+        }
+]
+
+-> -> -> -> -> -> -> -> 
+
+## ToolNode
+executes Tavily
+
+adds:
+ToolMessage(...)
+to messages
+
+-> -> -> -> -> -> -> -> 
+
+back to reason_node
+
+Gemini now sees:
+
+HumanMessage(...)
+AIMessage(tool_calls=[...])
+ToolMessage(...)
+
+and returns:
+
+AIMessage(
+    content="The last SpaceX launch occurred X days ago."
+)
+
+-> -> -> -> -> -> -> -> 
+tools_condition:
+
+sees no tool_calls
+↓
+END

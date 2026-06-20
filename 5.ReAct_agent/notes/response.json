@@ -1,0 +1,184 @@
+{
+  "messages": [
+    {
+      "content": "How many days ago was the last SpaceX launch?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "id": "5907f22a-3f6d-4e75-9c13-b8dd96237506"
+    },
+    {
+      "content": [],
+      "additional_kwargs": {
+        "function_call": {
+          "name": "tavily_search_results_json",
+          "arguments": "{\"query\": \"last SpaceX launch date\"}"
+        },
+        "__gemini_function_call_thought_signatures__": {
+          "yc3SWAYU": "EjQKMgEMOdbHjF3vhUYSGxB6wUF2MEz3Qh7b4QvvRzXaUbU1eYC/0cRCQjTuTLUbPaQbC+hl"
+        }
+      },
+      "response_metadata": {
+        "finish_reason": "STOP",
+        "model_name": "gemini-3.1-flash-lite",
+        "safety_ratings": [],
+        "model_provider": "google_genai"
+      },
+      "type": "ai",
+      "id": "lc_run--019ede75-7b04-7a52-8126-6e11f47363c0-0",
+      "tool_calls": [
+        {
+          "name": "tavily_search_results_json",
+          "args": {
+            "query": "last SpaceX launch date"
+          },
+          "id": "yc3SWAYU",
+          "type": "tool_call"
+        }
+      ],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 138,
+        "output_tokens": 25,
+        "total_tokens": 163,
+        "input_token_details": {
+          "cache_read": 0
+        }
+      }
+    },
+    {
+      "content": "[{\"title\": \"Launches - SpaceX\", \"url\": \"https://www.spacex.com/launches\", \"content\": \"*   [Starship](https://www.spacex.com/vehicles/starship). *   [Dragon](https://www.spacex.com/vehicles/dragon). *   [Falcon 9](https://www.spacex.com/vehicles/falcon-9). *   [Falcon Heavy](https://www.spacex.com/vehicles/falcon-heavy). *   [Overview](https://www.spacex.com/humanspaceflight/overview). *   [Space Station](https://www.spacex.com/humanspaceflight/iss). *   [Earth Orbit](https://www.spacex.com/humanspaceflight/earth). *   [The Moon](https://www.spacex.com/humanspaceflight/moon). *   [Mars & Beyond](https://www.spacex.com/humanspaceflight/mars). [Starshield](https://www.spacex.com/starshield). *   [Mission](https://www.spacex.com/mission). *   [Careers](https://www.spacex.com/careers). *   [Updates](https://www.spacex.com/updates). *   [Content](https://www.spacex.com/content). [All Upcoming Launches](https://www.spacex.com/launches). [WATCH](https://www.spacex.com/launches/nrol179). | Starlink Mission | Falcon 9 | SLC-4E, California | Droneship | June 21, 2026 14:00 - 18:00 GMT+0 |. | Mission Clear Starship Flight Tests Human Spaceflight Space Station Resupply Science Commercial / International Rideshare Program National Security Starlink Direct to Cell Starman | Vehicle Clear Falcon 9 Falcon Heavy Starship Falcon 1 | Launch Site Clear LC-39A, Florida SLC-40, Florida SLC-4E, California Starbase, Texas Omelek Island | Return Site Clear Droneship Landing Zone Mechazilla Expended Landing Zone / Expended Landing Zone / Droneship | Launch Date Clear 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010 2009 2008 2007 2006 |. ![Image 5](https://www.spacex.com/assets/images/launch-sites/launch_site_starbase_d.jpg). ![Image 6](https://www.spacex.com/assets/images/launch-sites/SPACEX_Launch_Locations_39A_decktop.jpg). [LC-39A](https://www.spacex.com/)[SLC-40](https://www.spacex.com/)[SLC-37](https://www.spacex.com/). ![Image 7](https://www.spacex.com/assets/images/launch-sites/SPACEX_Launch_Locations_VANDY_decktop.jpg).\", \"score\": 0.7715858}, {\"title\": \"Launch Schedule - Spaceflight Now\", \"url\": \"https://spaceflightnow.com/launch-schedule\", \"content\": \"*   [![Image 2](https://spaceflightnow.com/wp-content/uploads/2026/06/20260612_Starlink_10-54_liftoff_AB-1-80x60.jpeg)](https://spaceflightnow.com/2026/06/12/live-coverage-spacex-to-launch-final-starlink-mission-as-it-begins-publicly-trade-its-stock-on-the-nasdaq-for-the-first-time/ \\\"SpaceX launches Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time\\\")[SpaceX launches Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time](https://spaceflightnow.com/2026/06/12/live-coverage-spacex-to-launch-final-starlink-mission-as-it-begins-publicly-trade-its-stock-on-the-nasdaq-for-the-first-time/ \\\"SpaceX launches Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time\\\") [June 12, 2026](https://spaceflightnow.com/2026/06/). *   [![Image 3](https://spaceflightnow.com/wp-content/uploads/2026/06/20260611_Starlink_G17_44_liftoff-80x60.jpg)](https://spaceflightnow.com/2026/06/11/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-4/ \\\"SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg\\\")[SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg](https://spaceflightnow.com/2026/06/11/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-4/ \\\"SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg\\\") [June 11, 2026](https://spaceflightnow.com/2026/06/). *   [![Image 7](https://spaceflightnow.com/wp-content/uploads/2026/06/20260608_Starlink_10-35_liftoff_AB-1-80x60.jpeg)](https://spaceflightnow.com/2026/06/07/live-coverage-spacex-to-launch-falcon-9-rocket-booster-on-record-breaking-35th-flight/ \\\"SpaceX launches Falcon 9 rocket booster on record-breaking 35th flight\\\")[SpaceX launches Falcon 9 rocket booster on record-breaking 35th flight](https://spaceflightnow.com/2026/06/07/live-coverage-spacex-to-launch-falcon-9-rocket-booster-on-record-breaking-35th-flight/ \\\"SpaceX launches Falcon 9 rocket booster on record-breaking 35th flight\\\") [June 7, 2026](https://spaceflightnow.com/2026/06/). *   [![Image 11](https://spaceflightnow.com/wp-content/uploads/2026/06/20260603_Starlink_G17_47_San_Miguelito-80x60.jpg)](https://spaceflightnow.com/2026/06/03/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-3/ \\\"SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg\\\")[SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg](https://spaceflightnow.com/2026/06/03/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-3/ \\\"SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg\\\") [June 3, 2026](https://spaceflightnow.com/2026/06/).\", \"score\": 0.7318455}, {\"title\": \"Space Launch Schedule: Rocket Launches, Space News & Events\", \"url\": \"https://www.spacelaunchschedule.com\", \"content\": \"[![Space Launch Schedule](https://www.spacelaunchschedule.com/wp-content/themes/space-monkey/assets/images/logo.svg). [## CAS Space Unknown Payload Kinetica 1](https://www.spacelaunchschedule.com/launch/kinetica-1-unknown-payload/). [## SpaceX Starlink Group 17-54 Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-starlink-group-17-54/). [## China Aerospace Science and Technology Corporation Unknown Payload Long March 12](https://www.spacelaunchschedule.com/launch/long-march-12-unknown-payload/). [## ExPace Unknown Payload Kuaizhou 11](https://www.spacelaunchschedule.com/launch/kuaizhou-11-unknown-payload/). [## SpaceX BlueBird Block 2 #3-5 Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-bluebird-block-2-3-5/). [## Rocket Lab Ten Owl Of Ten (StriX Launch 10) Electron](https://www.spacelaunchschedule.com/launch/electron-ten-owl-of-ten-strix-launch-10/). [## SpaceX NROL-179 Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-nrol-179/). [## SpaceX Globalstar 2-R Mission 1 (x 9) Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-globalstar-2-r-mission-1-x-9/). [## SpaceX Starlink Group 17-28 Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-starlink-group-17-28/). [## SpaceX Starlink Group 17-45 Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-starlink-group-17-45/). [## SpaceX SDA Tranche 1 Transport Layer A Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-sda-tranche-1-transport-layer-a/). [## SpaceX SDA Tranche 1 Tracking Layer E Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-sda-tranche-1-tracking-layer-e/). [## SpaceX Sirius SXM-11 Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-sirius-sxm-11/). [## SpaceX SDA Tranche 1 Transport Layer D Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-sda-tranche-1-transport-layer-d/). [## European Space Agency T1H-1 Themis Demonstrator](https://www.spacelaunchschedule.com/launch/themis-demonstrator-t1h-1/). [## SpaceX SDA Tranche 1 Transport Layer E Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-sda-tranche-1-transport-layer-e/). * **[Apple](https://apps.apple.com/us/app/space-launch-schedule/id1024681892)**.\", \"score\": 0.5835125}, {\"title\": \"Rocket Launch Schedule & Countdown\", \"url\": \"https://www.visitspacecoast.com/launches\", \"content\": \"# Space Coast’s Next Launch Attempt. **Falcon 9 Block 5 | BlueBird Block 2 #3-5 Moved to: 06/17/2026**. **Falcon 9 Block 5 | BlueBird Block 2 #3-5**. **Falcon 9 Block 5 | Project Starfall Demonstration Mission**. **Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)**. With NASA, SpaceX, and United Launch Alliance sending rockets to the stars, your chance of catching a launch on your next Space Coast getaway are highly likely. Download the \\\"Space Coast Launches\\\" app today for the most up to date launch details, live videos, and more information. Download the Space Coast Launches App. Download the app Space Coast Launches app today for live videos, launch details and more information. \\\\*\\\\* This page is automatically updated once a day, for the most up to date launch times check the Space Coast Launches App. Learn More on the App.\", \"score\": 0.55796635}, {\"title\": \"List of Falcon 9 and Falcon Heavy launches - Wikipedia\", \"url\": \"https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches\", \"content\": \"| 288 | January 7, 2024 22:35[[28]](#cite_note-39) | [F9 B5](/wiki/Falcon_9_Block_5 \\\"Falcon 9 Block 5\\\") [B1067‑16](/wiki/List_of_Falcon_9_first-stage_boosters#B1067 \\\"List of Falcon 9 first-stage boosters\\\") | [Cape Canaveral](/wiki/Cape_Canaveral_Space_Force_Station \\\"Cape Canaveral Space Force Station\\\"), [SLC‑40](/wiki/Cape_Canaveral_Space_Launch_Complex_40 \\\"Cape Canaveral Space Launch Complex 40\\\") | [Starlink](/wiki/Starlink \\\"Starlink\\\"): [Group 6-35](/wiki/List_of_Starlink_and_Starshield_launches#G6-35 \\\"List of Starlink and Starshield launches\\\") (23 satellites) | ~17,100 kg (37,700 lb) | [LEO](/wiki/Low_Earth_orbit \\\"Low Earth orbit\\\") | [SpaceX](/wiki/SpaceX \\\"SpaceX\\\") | Success | Success ([ASOG](/wiki/A_Shortfall_of_Gravitas \\\"A Shortfall of Gravitas\\\")) |. | 308 | March 10, 2024 23:05[[70]](#cite_note-82) | [F9 B5](/wiki/Falcon_9_Block_5 \\\"Falcon 9 Block 5\\\") [B1077‑11](/wiki/List_of_Falcon_9_first-stage_boosters#B1077 \\\"List of Falcon 9 first-stage boosters\\\") | [Cape Canaveral](/wiki/Cape_Canaveral_Space_Force_Station \\\"Cape Canaveral Space Force Station\\\"), [SLC‑40](/wiki/Cape_Canaveral_Space_Launch_Complex_40 \\\"Cape Canaveral Space Launch Complex 40\\\") | [Starlink](/wiki/Starlink \\\"Starlink\\\"): [Group 6-43](/wiki/List_of_Starlink_and_Starshield_launches#G6-43 \\\"List of Starlink and Starshield launches\\\") (23 satellites) | ~17,100 kg (37,700 lb) | [LEO](/wiki/Low_Earth_orbit \\\"Low Earth orbit\\\") | [SpaceX](/wiki/SpaceX \\\"SpaceX\\\") | Success | Success ([JRTI](/wiki/Just_Read_the_Instructions \\\"Just Read the Instructions\\\")) |.\", \"score\": 0.54913354}]",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "tool",
+      "name": "tavily_search_results_json",
+      "id": "e71ca888-6630-4bb5-8298-f451cf62a8cd",
+      "tool_call_id": "yc3SWAYU",
+      "artifact": {
+        "query": "last SpaceX launch date",
+        "follow_up_questions": null,
+        "answer": null,
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.spacex.com/launches",
+            "title": "Launches - SpaceX",
+            "content": "*   [Starship](https://www.spacex.com/vehicles/starship). *   [Dragon](https://www.spacex.com/vehicles/dragon). *   [Falcon 9](https://www.spacex.com/vehicles/falcon-9). *   [Falcon Heavy](https://www.spacex.com/vehicles/falcon-heavy). *   [Overview](https://www.spacex.com/humanspaceflight/overview). *   [Space Station](https://www.spacex.com/humanspaceflight/iss). *   [Earth Orbit](https://www.spacex.com/humanspaceflight/earth). *   [The Moon](https://www.spacex.com/humanspaceflight/moon). *   [Mars & Beyond](https://www.spacex.com/humanspaceflight/mars). [Starshield](https://www.spacex.com/starshield). *   [Mission](https://www.spacex.com/mission). *   [Careers](https://www.spacex.com/careers). *   [Updates](https://www.spacex.com/updates). *   [Content](https://www.spacex.com/content). [All Upcoming Launches](https://www.spacex.com/launches). [WATCH](https://www.spacex.com/launches/nrol179). | Starlink Mission | Falcon 9 | SLC-4E, California | Droneship | June 21, 2026 14:00 - 18:00 GMT+0 |. | Mission Clear Starship Flight Tests Human Spaceflight Space Station Resupply Science Commercial / International Rideshare Program National Security Starlink Direct to Cell Starman | Vehicle Clear Falcon 9 Falcon Heavy Starship Falcon 1 | Launch Site Clear LC-39A, Florida SLC-40, Florida SLC-4E, California Starbase, Texas Omelek Island | Return Site Clear Droneship Landing Zone Mechazilla Expended Landing Zone / Expended Landing Zone / Droneship | Launch Date Clear 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010 2009 2008 2007 2006 |. ![Image 5](https://www.spacex.com/assets/images/launch-sites/launch_site_starbase_d.jpg). ![Image 6](https://www.spacex.com/assets/images/launch-sites/SPACEX_Launch_Locations_39A_decktop.jpg). [LC-39A](https://www.spacex.com/)[SLC-40](https://www.spacex.com/)[SLC-37](https://www.spacex.com/). ![Image 7](https://www.spacex.com/assets/images/launch-sites/SPACEX_Launch_Locations_VANDY_decktop.jpg).",
+            "score": 0.7715858,
+            "raw_content": null
+          },
+          {
+            "url": "https://spaceflightnow.com/launch-schedule",
+            "title": "Launch Schedule - Spaceflight Now",
+            "content": "*   [![Image 2](https://spaceflightnow.com/wp-content/uploads/2026/06/20260612_Starlink_10-54_liftoff_AB-1-80x60.jpeg)](https://spaceflightnow.com/2026/06/12/live-coverage-spacex-to-launch-final-starlink-mission-as-it-begins-publicly-trade-its-stock-on-the-nasdaq-for-the-first-time/ \"SpaceX launches Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time\")[SpaceX launches Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time](https://spaceflightnow.com/2026/06/12/live-coverage-spacex-to-launch-final-starlink-mission-as-it-begins-publicly-trade-its-stock-on-the-nasdaq-for-the-first-time/ \"SpaceX launches Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time\") [June 12, 2026](https://spaceflightnow.com/2026/06/). *   [![Image 3](https://spaceflightnow.com/wp-content/uploads/2026/06/20260611_Starlink_G17_44_liftoff-80x60.jpg)](https://spaceflightnow.com/2026/06/11/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-4/ \"SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg\")[SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg](https://spaceflightnow.com/2026/06/11/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-4/ \"SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg\") [June 11, 2026](https://spaceflightnow.com/2026/06/). *   [![Image 7](https://spaceflightnow.com/wp-content/uploads/2026/06/20260608_Starlink_10-35_liftoff_AB-1-80x60.jpeg)](https://spaceflightnow.com/2026/06/07/live-coverage-spacex-to-launch-falcon-9-rocket-booster-on-record-breaking-35th-flight/ \"SpaceX launches Falcon 9 rocket booster on record-breaking 35th flight\")[SpaceX launches Falcon 9 rocket booster on record-breaking 35th flight](https://spaceflightnow.com/2026/06/07/live-coverage-spacex-to-launch-falcon-9-rocket-booster-on-record-breaking-35th-flight/ \"SpaceX launches Falcon 9 rocket booster on record-breaking 35th flight\") [June 7, 2026](https://spaceflightnow.com/2026/06/). *   [![Image 11](https://spaceflightnow.com/wp-content/uploads/2026/06/20260603_Starlink_G17_47_San_Miguelito-80x60.jpg)](https://spaceflightnow.com/2026/06/03/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-3/ \"SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg\")[SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg](https://spaceflightnow.com/2026/06/03/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-3/ \"SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg\") [June 3, 2026](https://spaceflightnow.com/2026/06/).",
+            "score": 0.7318455,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.spacelaunchschedule.com",
+            "title": "Space Launch Schedule: Rocket Launches, Space News & Events",
+            "content": "[![Space Launch Schedule](https://www.spacelaunchschedule.com/wp-content/themes/space-monkey/assets/images/logo.svg). [## CAS Space Unknown Payload Kinetica 1](https://www.spacelaunchschedule.com/launch/kinetica-1-unknown-payload/). [## SpaceX Starlink Group 17-54 Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-starlink-group-17-54/). [## China Aerospace Science and Technology Corporation Unknown Payload Long March 12](https://www.spacelaunchschedule.com/launch/long-march-12-unknown-payload/). [## ExPace Unknown Payload Kuaizhou 11](https://www.spacelaunchschedule.com/launch/kuaizhou-11-unknown-payload/). [## SpaceX BlueBird Block 2 #3-5 Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-bluebird-block-2-3-5/). [## Rocket Lab Ten Owl Of Ten (StriX Launch 10) Electron](https://www.spacelaunchschedule.com/launch/electron-ten-owl-of-ten-strix-launch-10/). [## SpaceX NROL-179 Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-nrol-179/). [## SpaceX Globalstar 2-R Mission 1 (x 9) Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-globalstar-2-r-mission-1-x-9/). [## SpaceX Starlink Group 17-28 Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-starlink-group-17-28/). [## SpaceX Starlink Group 17-45 Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-starlink-group-17-45/). [## SpaceX SDA Tranche 1 Transport Layer A Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-sda-tranche-1-transport-layer-a/). [## SpaceX SDA Tranche 1 Tracking Layer E Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-sda-tranche-1-tracking-layer-e/). [## SpaceX Sirius SXM-11 Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-sirius-sxm-11/). [## SpaceX SDA Tranche 1 Transport Layer D Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-sda-tranche-1-transport-layer-d/). [## European Space Agency T1H-1 Themis Demonstrator](https://www.spacelaunchschedule.com/launch/themis-demonstrator-t1h-1/). [## SpaceX SDA Tranche 1 Transport Layer E Falcon 9 Block 5](https://www.spacelaunchschedule.com/launch/falcon-9-block-5-sda-tranche-1-transport-layer-e/). * **[Apple](https://apps.apple.com/us/app/space-launch-schedule/id1024681892)**.",
+            "score": 0.5835125,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.visitspacecoast.com/launches",
+            "title": "Rocket Launch Schedule & Countdown",
+            "content": "# Space Coast’s Next Launch Attempt. **Falcon 9 Block 5 | BlueBird Block 2 #3-5 Moved to: 06/17/2026**. **Falcon 9 Block 5 | BlueBird Block 2 #3-5**. **Falcon 9 Block 5 | Project Starfall Demonstration Mission**. **Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)**. With NASA, SpaceX, and United Launch Alliance sending rockets to the stars, your chance of catching a launch on your next Space Coast getaway are highly likely. Download the \"Space Coast Launches\" app today for the most up to date launch details, live videos, and more information. Download the Space Coast Launches App. Download the app Space Coast Launches app today for live videos, launch details and more information. \\*\\* This page is automatically updated once a day, for the most up to date launch times check the Space Coast Launches App. Learn More on the App.",
+            "score": 0.55796635,
+            "raw_content": null
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches",
+            "title": "List of Falcon 9 and Falcon Heavy launches - Wikipedia",
+            "content": "| 288 | January 7, 2024 22:35[[28]](#cite_note-39) | [F9 B5](/wiki/Falcon_9_Block_5 \"Falcon 9 Block 5\") [B1067‑16](/wiki/List_of_Falcon_9_first-stage_boosters#B1067 \"List of Falcon 9 first-stage boosters\") | [Cape Canaveral](/wiki/Cape_Canaveral_Space_Force_Station \"Cape Canaveral Space Force Station\"), [SLC‑40](/wiki/Cape_Canaveral_Space_Launch_Complex_40 \"Cape Canaveral Space Launch Complex 40\") | [Starlink](/wiki/Starlink \"Starlink\"): [Group 6-35](/wiki/List_of_Starlink_and_Starshield_launches#G6-35 \"List of Starlink and Starshield launches\") (23 satellites) | ~17,100 kg (37,700 lb) | [LEO](/wiki/Low_Earth_orbit \"Low Earth orbit\") | [SpaceX](/wiki/SpaceX \"SpaceX\") | Success | Success ([ASOG](/wiki/A_Shortfall_of_Gravitas \"A Shortfall of Gravitas\")) |. | 308 | March 10, 2024 23:05[[70]](#cite_note-82) | [F9 B5](/wiki/Falcon_9_Block_5 \"Falcon 9 Block 5\") [B1077‑11](/wiki/List_of_Falcon_9_first-stage_boosters#B1077 \"List of Falcon 9 first-stage boosters\") | [Cape Canaveral](/wiki/Cape_Canaveral_Space_Force_Station \"Cape Canaveral Space Force Station\"), [SLC‑40](/wiki/Cape_Canaveral_Space_Launch_Complex_40 \"Cape Canaveral Space Launch Complex 40\") | [Starlink](/wiki/Starlink \"Starlink\"): [Group 6-43](/wiki/List_of_Starlink_and_Starshield_launches#G6-43 \"List of Starlink and Starshield launches\") (23 satellites) | ~17,100 kg (37,700 lb) | [LEO](/wiki/Low_Earth_orbit \"Low Earth orbit\") | [SpaceX](/wiki/SpaceX \"SpaceX\") | Success | Success ([JRTI](/wiki/Just_Read_the_Instructions \"Just Read the Instructions\")) |.",
+            "score": 0.54913354,
+            "raw_content": null
+          }
+        ],
+        "response_time": 0.93,
+        "request_id": "38fb1a72-4936-471a-9923-de000764a8b3"
+      },
+      "status": "success"
+    },
+    {
+      "content": [],
+      "additional_kwargs": {
+        "function_call": {
+          "name": "get_current_time",
+          "arguments": "{\"format\": \"%Y-%m-%d\"}"
+        },
+        "__gemini_function_call_thought_signatures__": {
+          "RSC2sKxN": "EjQKMgEMOdbHH6pO8e8URW6b5zobyQM2NWcOJ56XioXX5tVYlTUMRQdRSaARFPMWMSY54NDN"
+        }
+      },
+      "response_metadata": {
+        "finish_reason": "STOP",
+        "model_name": "gemini-3.1-flash-lite",
+        "safety_ratings": [],
+        "model_provider": "google_genai"
+      },
+      "type": "ai",
+      "id": "lc_run--019ede75-872c-7453-a20a-357593013256-0",
+      "tool_calls": [
+        {
+          "name": "get_current_time",
+          "args": {
+            "format": "%Y-%m-%d"
+          },
+          "id": "RSC2sKxN",
+          "type": "tool_call"
+        }
+      ],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 3846,
+        "output_tokens": 23,
+        "total_tokens": 3869,
+        "input_token_details": {
+          "cache_read": 0
+        }
+      }
+    },
+    {
+      "content": "2026-06-19",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "tool",
+      "name": "get_current_time",
+      "id": "a8103068-d14b-40a0-9b4b-9c599c4d4b18",
+      "tool_call_id": "RSC2sKxN",
+      "status": "success"
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "The last SpaceX launch took place on **June 12, 2026**.\n\nAs of today, June 19, 2026, that was **7 days ago**.",
+          "extras": {
+            "signature": "EjQKMgEMOdbHSfOw8d+j1VGIeiOt2SJFeozu5Rt17E9KmYt0tv+IHXMRIgJoj9rLt4pVvm9X"
+          }
+        }
+      ],
+      "additional_kwargs": {},
+      "response_metadata": {
+        "finish_reason": "STOP",
+        "model_name": "gemini-3.1-flash-lite",
+        "safety_ratings": [],
+        "model_provider": "google_genai"
+      },
+      "type": "ai",
+      "id": "lc_run--019ede75-8b79-7330-a618-238fb2ca0f55-0",
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 3894,
+        "output_tokens": 42,
+        "total_tokens": 3936,
+        "input_token_details": {
+          "cache_read": 0
+        }
+      }
+    }
+  ]
+}

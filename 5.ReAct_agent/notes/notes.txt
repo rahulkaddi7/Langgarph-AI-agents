@@ -1,0 +1,15 @@
+# llm.bind_tools(tools)
+
+returns AI messages with tool calls.
+
+Example:
+
+AIMessage(
+    content="",
+    tool_calls=[
+        {
+            "name": "get_current_time",
+            "args": {}
+        }
+    ]
+)
